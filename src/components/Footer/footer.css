@@ -1,0 +1,31 @@
+.container{
+    width: 1300px;
+}
+
+.footer-container{
+    background-color: rgb(234, 232, 232);
+    display: flex;
+ 
+    height: 500px;
+    justify-content: space-between;
+    
+}
+ol{
+    margin: 30px auto;
+}
+.footer-container ol li{
+   list-style: none;
+   line-height: 50px;
+   font-weight: 600;
+   cursor: pointer;
+}
+strong{
+    color: #0078af;
+    text-decoration: underline;
+}
+h6{
+    font-size: 18px;
+}
+.address{
+    margin: 30px auto;
+}

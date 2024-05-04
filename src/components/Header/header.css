@@ -1,0 +1,23 @@
+.header{
+    background-color: #0078ad;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    height: 80px;
+    max-width:100%;
+    padding: 20px 8px;
+    margin: 0 auto;
+    min-width: 1030px;
+}
+.bi-cart-fill{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+}
+.bi-cart-fill:hover{
+
+
+cursor: pointer;
+
+}

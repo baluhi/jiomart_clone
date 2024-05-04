@@ -1,0 +1,77 @@
+.products{
+    display: flex;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+  
+   
+}
+.card:hover{
+    border: 1px solid rgb(197, 191, 191);
+    transition: ease-in 2s;
+  
+    cursor: pointer;
+}
+.card-bottom{
+    margin-right: 100px;
+    line-height: 10px;
+ 
+}
+
+.orgPrice{
+    text-decoration: line-through;
+    color: darkgray;
+    font-weight: 600;
+}
+.offer{
+    position: relative;
+    font-weight: 600;
+    background-color: rgb(115, 221, 115);
+    border-radius: 5px;
+    left: 70px;
+    top: -10px;
+}
+.card-bottom p {
+    font-weight: 600;
+}
+.product-name{
+    font-weight: 600;
+    font-size: 14px;
+}
+.product-image{
+    width: 100%;
+}
+.product-add-button .bi-heart-fill{
+    color: black;
+    background: #fff;
+}
+.buttons button{
+    background-color: #fff;
+}
+.buttons{
+    position: relative;
+    left: 35%;
+}
+.add-btn{
+    background-color: #fff;
+    border: 1px solid grey;
+    position: absolute;
+    right: 15px;
+    bottom: -60px;
+    padding-left: 50px;
+    border-radius: 40px;
+    color: #0078ad;
+    font-weight: 600;
+    padding-right: 50px;
+   
+  
+}
+.add-btn:hover{
+    background-color: #0078ad;
+    color: white;
+    border: none;
+}

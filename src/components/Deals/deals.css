@@ -1,0 +1,14 @@
+.container{
+    margin: 100px auto;
+}
+
+.deals-container{
+    display: flex;
+    
+}
+
+
+.card{
+    
+    align-items: center;
+}
